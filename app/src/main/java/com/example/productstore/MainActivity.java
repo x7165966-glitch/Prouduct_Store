@@ -40,40 +40,36 @@ public class MainActivity extends AppCompatActivity {
 
 
         products.add(new Product(
-                R.drawable.ic_launcher_background,
+                R.drawable.camera,
                 "Bitzwolf B-CC1 Camera 1080P HD Webcam",
                 48.89
         ));
 
         products.add(new Product(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.camera2,
                 "Bitzwolf B-CC1 Camera 1080P HD Webcam",
                 55.89
         ));
 
         products.add(new Product(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.camera3,
                 "Bitzwolf B-CC1 Camera 1080P HD Webcam",
                 78.89
         ));
 
         products.add(new Product(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.missed_video_call,
                 "Bitzwolf B-CC1 Camera 1080P HD Webcam",
                 88.55
         ));
 
         products.add(new Product(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.camera_24dp,
                 "Bitzwolf B-CC1 Camera 1080P HD Webcam",
                 23.67
         ));
 
-        products.add(new Product(
-                R.drawable.ic_launcher_background,
-                "Bitzwolf B-CC1 Camera 1080P HD Webcam",
-                44.89
-        ));
+
 
 
         ProductAdapter adapter = new ProductAdapter(products);

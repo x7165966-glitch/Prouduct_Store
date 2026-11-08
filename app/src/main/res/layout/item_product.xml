@@ -50,7 +50,7 @@
             android:id="@+id/cartIcon"
             android:layout_width="24dp"
             android:layout_height="24dp"
-
+            android:src="@drawable/shoping__2_"
             android:contentDescription="Shopping cart" />
 
     </LinearLayout>
